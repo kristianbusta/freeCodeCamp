@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">survey form</h1>
+    <p id="description">a freeCodeCamp project</p>
+    <form id="survey-form">
+      <fieldset class="first">
+	<label id="name-label" for="name">Enter Your Name: <input placeholder="John Smith" type="text" id="name" required/></label>
+	<label id="email-label" for="email">Enter Your Email: <input placeholder="email@address.org" type="email" id="email" required/></label>
+	<label id="number-label" for="number">Enter Your Age: <input placeholder="18" type="number" id="number" min="18" max="99"/></label>
+	<label for="dropdown">Select Your Gender:
+	  <select id="dropdown">
+	    <option>Male</option>
+	    <option>Female</option>
+	    <option>Other</option>
+	  </select>
+	</label>
+      </fieldset>
+      <fieldset class="second">
+	<label>What type of developer do you wish to be?
+	  <label for="dev"><input value="front" class="inline" type="radio" name="dev" id="front">Front-End Developer</label>
+	  <label for="dev"><input value="back" class="inline" type="radio" name="dev" id="back">Back-End Developer</label>
+	  <label for="dev"><input value="full" class="inline" type="radio" name="dev" id="full">Full-Stack Developer</label>
+	</label>
+      </fieldset>
+      <fieldset class="third">
+	<label>Where did you hear about us?
+	  <label for="source"><input class="inline" type="checkbox" name="source" value="0">freeCodeCamp</label>
+	  <label for="source"><input class="inline" type="checkbox" name="source" value="1">Social Media</label>
+	  <label for="source"><input class="inline" type="checkbox" name="source" value="2">Other</label>
+      </fieldset>
+      <fieldset class="fourth">
+	<label for="bio">Enter Your Bio:
+	  <textarea placeholder="I want to become a developer..."></textarea>
+	</label>
+      </fieldset>
+      <fieldset class="fifth">
+	<label for="terms"><input value="terms" class="inline" type="checkbox" name="terms">I agree with the <a href="https://www.freecodecamp.org" target="_blank">terms && conditions.</a></label>
+	<input type="submit" id="submit" value="submit"/>
+      </fieldset>
+    </form>
+  </body>
+</html>
