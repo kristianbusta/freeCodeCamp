@@ -1,0 +1,60 @@
+html {
+  min-width: 350px;
+}
+
+body {
+  padding: 1em;
+  font-family: sans-serif;
+  text-align: center;
+  color: #181a18;
+}	
+
+h1 {
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+figure {
+  margin: 2em auto;
+  padding: 2em;
+  max-width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+img {
+ display: block;
+ margin: 0 auto;
+ padding-bottom: 1em;
+ max-width: 100%;
+ height: auto;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+.timeline {
+  margin: 2em 0;
+}
+
+section {
+  display: block;
+}
+
+ul {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+  line-height: 2em;
+}
+
+blockquote {
+  margin: 6em auto;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+a {
+ color: gray;
+}
