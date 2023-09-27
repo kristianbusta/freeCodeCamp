@@ -1,1 +1,92 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&&family=Roboto:wght@400;700&display=swap"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="free guitars, guitar, eshop, product"/>
+    <meta name="description" content="Product Landing Page of a fictional company Free Guitars"/>
+    <meta name="author" content="Kristian Bušta"/>
+  </head>
+  <body>
+    <header class="header-flex" id="header">
+      <div class="header-flex">
+        <img
+	  id="header-img"
+          src="https://i.ibb.co/VYQ9S32/guitar.png"
+	  alt="free guitars logo"
+	  loading="lazy"/>
+	<h1>free guitars</h1>
+      </div>
+      <nav class="header-flex" id="nav-bar">
+	<a class="nav-link" href="#about"><p>about</p></a>
+	<a class="nav-link" href="#sign-up"><p>sign up</p></a>
+	<a class="nav-link" href="#pricing"><p>pricing</p></a>
+      </nav>
+    </header>
+    <section id="about">
+      <h2>about</h2>
+      <p>Aliquam tristique urna non mi eleifend, ut condimentum nisl volutpat. In tempus nunc ligula, non tempor nibh fringilla at. Maecenas semper, ligula vitae porttitor accumsan, sem mauris bibendum est, vel facilisis lorem massa eget neque. Pellentesque imperdiet condimentum dolor eu tempus.</p>
+    </section>
+    <section id="sign-up">
+      <h2>sign up</h2>
+      <p>Praesent a arcu luctus? Elementum tortor et!</p>
+      <form 
+        id="form"
+	method="post"
+	action="https://www.freecodecamp.com/email-submit">
+	<label for="email">Enter Your Email:
+	  <input 
+	    type="email" 
+	    id="email" 
+	    placeholder="email@address.org"
+	    name="email"
+	    required/>
+	</label>
+	<input type="submit" id="submit"/>
+      </form>
+    </section>
+    <iframe
+      id="video"
+      src="https://www.youtube.com/embed/VOcABtJTpho?si=E2FQI4nXPCi0WwKi"
+      allow="gyroscope"
+      allowfullscreen>
+    </iframe>
+    <section id="pricing">
+      <h2>select your product</h2>
+      <div class="products">
+	<div class="container">
+	  <h3>Acoustic</h3>
+	  <p>Sed quis orci id augue</p>
+	  <p>$299.99</p>
+	  <input type="button" value="Order"/>
+	</div>
+	<div class="container">
+          <h3>Stratocaster</h3>
+          <p>Suspendisse vitae erat ac nunc</p>
+          <p>$499.99</p>
+          <input type="button" value="Order"/>
+        </div>
+	<div class="container">
+          <h3>Telecaster</h3>
+          <p>Aenean a lacus in purus</p>
+          <p>$599.99</p>
+          <input type="button" value="Order"/>
+        </div>
+	<div class="container">
+          <h3>Les Paul</h3>
+          <p>Aliquam congue est et fringilla pretium</p>
+          <p>$599.99</p>
+          <input type="button" value="Order"/>
+        </div>
+      </div>
+    </section>
+    <footer>
+	    <a target="_blank" href="https://www.flaticon.com/free-icons/music-and-multimedia" title="music and multimedia icons"><p>Music and multimedia icons created by Freepik - Flaticon</p></a>
+    </footer>
+  </body>
+</html>
