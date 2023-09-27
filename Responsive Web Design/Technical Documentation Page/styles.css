@@ -1,0 +1,127 @@
+html {
+  font-family: sans-serif;
+  color: #2f2f2f;
+  min-width: 350px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: none;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 275px;
+  height: 100%;
+  border-right: 5px solid #e8e8e8;
+}
+
+nav header {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  border-top: 2.5px solid #d1d1d1;
+  padding: 1em 0;
+}
+
+a {
+  color: #191919;
+  text-decoration: none;
+  padding-left: 2em;
+}
+
+main {
+  line-height: 1.5em;
+  margin-left: 300px;
+  padding: 2em 0;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+header {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 1em;
+}
+
+#lorem header {
+  margin-top: 0;
+}
+
+div {
+  padding: 0 2.5em;
+}
+
+code {
+  display: block;
+  width: 50%;
+  background-color: #f3f3f3;
+  border-radius: 1em;
+  padding: 2em;
+}
+
+footer {
+ display: none;
+}
+
+@media (max-width: 850px) {
+  img {
+    display: inline;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+
+  #navbar {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 5px solid #e8e8e8;
+  }
+
+  nav ul {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  a {
+    padding: 0;
+  }
+
+  main {
+    margin: 1em auto;
+  }
+
+  code {
+    width: 90%;
+  }
+
+  footer {
+    display: block;
+    margin: 0 auto;
+    padding: 2em 0;
+    background-color: #2f2f2f; 
+  }
+
+  footer a {
+    display: block;
+    color: white;
+    text-align: center;
+  }
+}
